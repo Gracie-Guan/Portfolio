@@ -15,11 +15,14 @@
 
     <!-- insert external document and sources -->
 
-    <link rel="stylesheet" type="text/css" href="../general.css">
-    <link rel="stylesheet" href="index.css">
-    <script type="text/javascript" src="index.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    
+    <link rel="stylesheet" type="text/css" href="../general.css" />
+
+    <!-- This is external a stylesheet icons from google-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,42 +32,54 @@
     />
   </head>
 
-  
-<!-- The reuseable navigation bar -->
+  <!-- The reuseable navigation bar -->
   <body>
     <header class="header">
       <nav class="navBar">
         <ul class="navList">
-        
-          <div class="leftNav">
-            <li><a class="navItem navItem-left" href="/illustration/illustration.html">ILLUSTRATION</a></li>
-            <li><a class="navItem navItem-left" href="/Photography/photography.html">PHOTOGRAPHY</a></li>
-            <li><a class="navItem navItem-left" href="/marketing/marketing.html">MARKETING</a></li>
-          </div>
-        
-          <div class="rightNav navItem">
-            <li><a class="navItem navItem-right" href="#about">ABOUT ME
-            </a></li>
-            <li><a class="navItem navItem-right" href="#contact">CONTACT
-            </a></li>
-          </div>
-        
+          <li class="leftNav">
+            <span>
+              <a
+                class="navItem navItem-left homeNav-left"
+                href="../illustration/illustration.html"
+                >ILLUSTRATION</a
+              >
+            </span>
+
+            <span>
+              <a
+                class="navItem navItem-left homeNav-left"
+                href="../photography/photography.html"
+                >PHOTOGRAPHY</a
+              >
+            </span>
+
+            <span>
+              <a
+                class="navItem navItem-left homeNav-left"
+                href="../marketing/marketing.html"
+                >MARKETING</a
+              >
+            </span>
+          </li>
+
+          <li class="rightNav navItem">
+            <span>
+              <a class="navItem navItem-right" href="#about">ABOUT ME </a>
+            </span>
+            <span>
+              <a class="navItem navItem-right" href="#contact">CONTACT </a>
+            </span>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-<!-- The home page -->
+      <!-- The home page -->
       <section class="homeSection">
-        <!-- <div bgSetting>
-          <div id="homeLeftbox"></div>
-          <img src="index_img/headphoto.jpg" class="headPhoto" alt="Gracie's illustration profile photo">
-          <div id="homeRightbox"></div> 
-       </div> -->
-        
         <h2 class="slogan">
-          Multidisciplinary<br /> Creator
-          <span class="headline">with</span> <br />
-          Business Acumen
+          Multidisciplinary<br />
+          Creator <span class="headline">with</span> <br />Business Acumen
         </h2>
         <div id="nameBox">
           <h1 id="name">Gracie.</h1>
@@ -72,119 +87,184 @@
         </div>
       </section>
 
-<!-- The introduction section -->
+      <!-- The introduction section -->
       <section class="introSection grid-2-2" id="about">
         <div class="intro generalText">
-          <p>It's been quite the journey to get here.<br>
+          <p>
+            It's been quite the journey to get here.<br />
 
-            <em>Visual expression</em> has always been my refuge. From a young age, I explored the realms of sketching, painting, and photography. During my undergraduate years, I earn a second degree in Editing of Broadcasting and Television, deepening my passion.<br>
-            
-            Post-graduation, I embarked on an eight-year journey in <em>marketing and advertising</em>, gaining expertise in market research, strategy development, brand visuals, product communication, and public relations. <br>
-            
-            I firmly believe in design's role as a <em>practical problem solver</em> for businesses and organizations. To merge my digital design skills with business acumen, I'm pursuing a master's in <em>Interactive Digital Media</em> at Trinity College Dublin. I'm driven to apply these skills in <em>product design</em>, <em>web design</em>, and <em>game design</em>. I'm passionate about connecting people through my work and co-creating a brighter future.</p>
+            <em>Visual expression</em> has always been my refuge. From a young
+            age, I explored the realms of sketching, painting, and photography.
+            During my undergraduate years, I earn a second degree in Editing of
+            Broadcasting and Television, deepening my passion.<br />
+
+            Post-graduation, I embarked on an eight-year journey in
+            <em>marketing and advertising</em>, gaining expertise in market
+            research, strategy development, brand visuals, product
+            communication, and public relations. <br />
+
+            I firmly believe in design's role as a
+            <em>practical problem solver</em> for businesses and organizations.
+            To merge my digital design skills with business acumen, I'm pursuing
+            a master's in <em>Interactive Digital Media</em> at Trinity College
+            Dublin. I'm driven to apply these skills in <em>product design</em>,
+            <em>web design</em>, and <em>game design</em>. I'm passionate about
+            connecting people through my work and co-creating a brighter future.
+          </p>
         </div>
 
-        <img src="index_img/introphoto.jpg" class="introphoto" alt="an intro photo of Gracie, the image shows a sphere reflecting her figure taking photo with camera">
+        <img
+          src="index_img/introphoto.jpg"
+          class="introphoto"
+          alt="an intro photo of Gracie, the image shows a sphere reflecting her figure taking photo with camera"
+        />
 
         <div class="introIcons">
-        <h1 class="greeting">
-          <p class="greet">Hi, I'm</p>
-          <p class="greetingName">Gracie</p>
-        </h1>
-        
-        <div class="socialIcons">
-          
-            <a href="https://www.linkedin.com/in/gracie-guan/"><ion-icon class="icon-lk" name="logo-linkedin"></ion-icon></a>
-            <a href="https://instagram.com/gracieguan_ie?igshid=OGQ5ZDc2ODk2ZA=="><ion-icon class="icon-ig" name="logo-instagram"></ion-icon></a>
-            <a href="mailto:guanyu@tcd.ie"><ion-icon class="icon-em" name="mail"></ion-icon></a>
-          
+          <div class="greeting">
+            <p class="greet">Hi, I'm</p>
+            <h2 class="greetingName">Gracie</h2>
+          </div>
+
+          <div class="socialIcons">
+            <a href="https://www.linkedin.com/in/gracie-guan/"
+              ><ion-icon class="icon-lk" name="logo-linkedin"></ion-icon
+            ></a>
+            <a
+              href="https://instagram.com/gracieguan_ie?igshid=OGQ5ZDc2ODk2ZA=="
+              ><ion-icon class="icon-ig" name="logo-instagram"></ion-icon
+            ></a>
+            <a href="mailto:guanyu@tcd.ie"
+              ><ion-icon class="icon-em" name="mail"></ion-icon
+            ></a>
+          </div>
         </div>
-       </div>
       </section>
 
-<!-- Here is the EXPERTISE section -->
+      <!-- Here is the EXPERTISE section -->
       <section class="expertiseSection">
         <h1 class="expertiseheading">EXPERTISE</h1>
         <!-- column for photography -->
         <div class="colPhoto">
-          
-          <img class="expertiseImgBox" src="index_img/phtography.jpg" alt="photo of a lake with trees"/>
-        
+          <img
+            class="expertiseImgBox"
+            src="index_img/phtography.jpg"
+            alt="photo of a lake with trees"
+          />
+
           <div id="box2">
-           <h2 class="expert">
-            Photography
-            </h2>
-            <p class="expertdes">Photography is how I reveal my unique perspective, showcasing the world through my eyes, one snapshot at a time.</p>
+            <h2 class="expert">Photography</h2>
+            <p class="expertdes">
+              Photography is how I reveal my unique perspective, showcasing the
+              world through my eyes, one snapshot at a time.
+            </p>
             <div class="linkToExpert">
-              <a class="explore" href="/Photography/photography.html">
-              <ion-icon class="goto" name="chevron-forward-circle-outline"></ion-icon></a>
+              <a class="explore" href="../photography/photography.html">
+                <ion-icon
+                  class="goto"
+                  name="chevron-forward-circle-outline"
+                ></ion-icon
+              ></a>
             </div>
           </div>
 
-          <div id="box3">
-            
-          </div>
-
+          <div id="box3"></div>
         </div>
         <!-- column for illustration -->
         <div class="colIllu">
-          <div id="box4">
-            
-          </div>
+          <div id="box4"></div>
 
           <div id="box5">
             <h2 class="expert">Illustration</h2>
-            <p class="expertdes">Illustration is the canvas where I splash my inner colors onto the world. It's where letting my imagination flow freely and infuse vibrancy into everything I create.</p>
+            <p class="expertdes">
+              Illustration is the canvas where I splash my inner colors onto the
+              world. It's where letting my imagination flow freely and infuse
+              vibrancy into everything I create.
+            </p>
             <div class="linkToExpert">
-              <a class="explore" href="/illustration/illustration.html">
-              <ion-icon class="goto"  name="chevron-forward-circle-outline"></ion-icon></a>              
+              <a class="explore" href="../illustration/illustration.html">
+                <ion-icon
+                  class="goto"
+                  name="chevron-forward-circle-outline"
+                ></ion-icon
+              ></a>
             </div>
           </div>
-          
-           <img class="expertiseImgBox" src="index_img/illustration.jpg" alt="Gracie's illustration of a couple dancing in the living room while an animal jazz band play outside"/>
-          
+
+          <img
+            class="expertiseImgBox"
+            src="index_img/illustration.jpg"
+            alt="Gracie's illustration of a couple dancing in the living room while an animal jazz band play outside"
+          />
         </div>
 
         <!-- column for marketing -->
         <div class="colmkt">
           <div id="box7"></div>
 
-          <img class="expertiseImgBox" src="index_img/marketing.jpg" alt="image about marketing and branding"/>
+          <img
+            class="expertiseImgBox"
+            src="index_img/marketing.jpg"
+            alt="image about marketing and branding"
+          />
 
           <div id="box9">
             <h2 class="expert">Marketing</h2>
-            <p class="expertdes">Marketing is more than a career. It's about understanding people, crafting narratives, and creating memorable experiences that leave a lasting impression.</p>
+            <p class="expertdes">
+              Marketing is more than a career. It's about understanding people,
+              crafting narratives, and creating memorable experiences that leave
+              a lasting impression.
+            </p>
             <div class="linkToExpert">
-              <a class="explore" href="/marketing/marketing.html">
-              <ion-icon class="goto"  name="chevron-forward-circle-outline"></ion-icon></a>
+              <a class="explore" href="../marketing/marketing.html">
+                <ion-icon
+                  class="goto"
+                  name="chevron-forward-circle-outline"
+                ></ion-icon
+              ></a>
             </div>
           </div>
         </div>
 
-       <!-- column for digital design -->
+        <!-- column for digital design -->
         <div class="coldigital">
           <div id="box10">
             <h2 class="expert">Digital Design</h2>
-            <p class="expertdes">Digital design is my playground of innovation. It's where I combining creativity and technology to make each digital encounter memorable and delightful.</p>
+            <p class="expertdes">
+              Digital design is my playground of innovation. It's where I
+              combining creativity and technology to make each digital encounter
+              memorable and delightful.
+            </p>
             <div class="linkToExpert">
               <a class="explore" href="#interest">
-              <ion-icon class="goto"  name="chevron-forward-circle-outline"></ion-icon></a>
+                <ion-icon
+                  class="goto"
+                  name="chevron-forward-circle-outline"
+                ></ion-icon
+              ></a>
             </div>
           </div>
 
-          <img class="expertiseImgBox" src="index_img/digital.jpg" alt="image of digital art">
+          <img
+            class="expertiseImgBox"
+            src="index_img/digital.jpg"
+            alt="image of digital art"
+          />
 
-          <div id="box12">  </div>
-
+          <div id="box12"></div>
+        </div>
       </section>
 
- <!-- Here is the experience section -->
+      <!-- Here is the experience section -->
       <section class="experienceSection">
         <div class="expheader">
           <h2 class="expheading">EXPERIENCE</h2>
-            <div class="expbtns">
-              <a class="explink" href="https://www.linkedin.com/in/gracie-guan/"><button class="expbutn-1">CONNECT ON LINKEDIN</button></a>
-              <a class="explink" href="index_img/CV - YunyiGUAN.pdf"><button class="expbutn-2">DOWNLOAD MY CV</button></a>
+          <div class="expbtns">
+            <a class="explink" href="https://www.linkedin.com/in/gracie-guan/"
+              ><div class="expbutn-1">CONNECT ON LINKEDIN</div></a
+            >
+            <a class="explink" href="index_img/cv-YunyiGUAN.pdf"
+              ><div class="expbutn-2">DOWNLOAD MY CV</div></a
+            >
           </div>
         </div>
 
@@ -192,183 +272,316 @@
           <!-- working experience 1 -->
           <div class="job1">
             <div class="jobBoxLeft">
-              <a href="https://www.blueshark.com/cn"><img class="companyLogo" src="index_img/blueshark.jpg" alt="logo of sharkgulf technology"/></a>
+              <a href="https://www.blueshark.com/cn"
+                ><img
+                  class="companyLogo"
+                  src="index_img/blueshark.jpg"
+                  alt="logo of sharkgulf technology"
+              /></a>
               <div class="jobbrief">
                 <p class="jobTime">Nov. 2019 - Sept. 2022</p>
-                <p class="company">Sharkgulf Technology Co., Ltd.</p>     
-              </div>   
+                <p class="company">Sharkgulf Technology Co., Ltd.</p>
+              </div>
             </div>
             <div class="jobBoxRight">
-              <h3 class="jobTitle">Senior Branding and Communications Manager</h3>
+              <h3 class="jobTitle">
+                Senior Branding and Communications Manager
+              </h3>
               <ul class="jobDescription">
-                <li><strong> marketing</strong> Led product launches and organized events to enhance brand and product visibility.</li>
-                <li><strong>Branding and marketing materials</strong>: Developed branding materials and worked with suppliers to design the company's official website.</li>
-                <li><strong>Business development</strong>: Explored potential collaborations, assessing feasibility and costs.</li>
+                <li>
+                  <strong>Marketing</strong>: Led product launches and organized
+                  events to enhance brand and product visibility.
+                </li>
+                <li>
+                  <strong>Branding and marketing materials</strong>: Developed
+                  branding materials and worked with suppliers to design the
+                  company's official website.
+                </li>
+                <li>
+                  <strong>Business development</strong>: Explored potential
+                  collaborations, assessing feasibility and costs.
+                </li>
                 <!-- skill tags -->
-                <div class="jobskills">
+                <li class="jobskills">
                   <span class="skillTags">Market Research</span>
                   <span class="skillTags">Project Management</span>
                   <span class="skillTags">Branding</span>
                   <span class="skillTags">Public Relations</span>
-                </div>
+                </li>
+              </ul>
             </div>
           </div>
-            <!-- working experience 2 -->
+          <!-- working experience 2 -->
           <div class="job2">
             <div class="jobBoxLeft">
-              <a href="https://www.groupm.com/"><img class="companyLogo" src="index_img/groupmlogo.png" alt="logo of GroupM"/></a>
+              <a href="https://www.groupm.com/"
+                ><img
+                  class="companyLogo"
+                  src="index_img/groupmlogo.png"
+                  alt="logo of GroupM"
+              /></a>
               <div class="jobbrief">
                 <p class="jobTime">Jul. 2018 - Jun. 2019</p>
                 <p class="company">GroupM</p>
-              </div>         
+              </div>
             </div>
 
             <div class="jobBoxRight">
               <h3 class="jobTitle">Content Marketing Manager</h3>
               <ul class="jobDescription">
-                <li><strong>Project Management</strong> Managed marketing projects, including celebrity collaborations, co-branding campaigns, and social media communications.</li>
-                <li><strong>Entertainment marketing</strong> Oversaw product placement and brand promotion in movies, TV series, and reality shows.</li>
-                <div class="jobskills">
+                <li>
+                  <strong>Project Management</strong>: Managed marketing
+                  projects, including celebrity collaborations, co-branding
+                  campaigns, and social media communications.
+                </li>
+                <li>
+                  <strong>Entertainment marketing</strong>: Oversaw product
+                  placement and brand promotion in movies, TV series, and
+                  reality shows.
+                </li>
+                <li class="jobskills">
                   <span class="skillTags">Entertainment Marketing</span>
                   <span class="skillTags">Project Management</span>
                   <span class="skillTags">Graphic design</span>
-                </div>
+                </li>
+              </ul>
             </div>
           </div>
-            <!-- working experience 3 -->
-            <div class="job3">
-              <div class="jobBoxLeft">
-                <a href="https://www.meizu.com/en/index.html"><img class="companyLogo" src="index_img/Meizu_logo.jpg" alt="logo of Meizu"/></a>
-                <div class="jobbrief">
-                  <p class="jobTime">Mar. 2015 - Mar. 2018</p>
-                  <p class="company">Meizu Technology Co., Ltd.</p> </div>        
-              </div>
-              <div class="jobBoxRight">
-                <h3 class="jobTitle">Marketing Planner</h3>
-                <ul class="jobDescription">
-                  <li><strong>Creative video planning</strong>: Planned and produced video content for social media, enhancing Meizu's brand image.</li>
-                  <li><strong>Marketing campaign planning</strong>: Composed strategies for product launches and promotional campaigns.</li>
-
-                  <div class="jobskills">
-                    <span class="skillTags">Marketing Planning</span>
-                    <span class="skillTags">Video Production</span>
-                    <span class="skillTags">Public Relations</span>
-                  </div>
+          <!-- working experience 3 -->
+          <div class="job3">
+            <div class="jobBoxLeft">
+              <a href="https://www.meizu.com/en/index.html"
+                ><img
+                  class="companyLogo"
+                  src="index_img/Meizu_logo.jpg"
+                  alt="logo of Meizu"
+              /></a>
+              <div class="jobbrief">
+                <p class="jobTime">Mar. 2015 - Mar. 2018</p>
+                <p class="company">Meizu Technology Co., Ltd.</p>
               </div>
             </div>
+            <div class="jobBoxRight">
+              <h3 class="jobTitle">Marketing Planner</h3>
+              <ul class="jobDescription">
+                <li>
+                  <strong>Creative video planning</strong>: Planned and produced
+                  video content for social media, enhancing Meizu's brand image.
+                </li>
+                <li>
+                  <strong>Marketing campaign planning</strong>: Composed
+                  strategies for product launches and promotional campaigns.
+                </li>
+
+                <li class="jobskills">
+                  <span class="skillTags">Marketing Planning</span>
+                  <span class="skillTags">Video Production</span>
+                  <span class="skillTags">Public Relations</span>
+                </li>
+              </ul>
+            </div>
           </div>
-        </section>
-
-<!-- The INTEREST section -->
-      <section class="interestSection" id="interest">
-        <div class="insbox">
-          <p class="largeDcp"><strong>INTEREST</strong> I'm currently pursuing a master's degree in Interactive Digital Media at Trinity College Dublin, where I explore user-centered design principles, advanced web technologies, 3D modeling and animation, and game design.</p>
-
-          <P class="smallDcp">With a strong focus on practical applications and innovative projects, it equips me with the skills and knowledge to create engaging digital experiences.</P>
-
-          <div class="interestImgbox">
-            <img class="interestImg" src="index_img/WebDesign.jpg" alt="developing with javascript"/>
-            <img class="interestImg" src="index_img/3D.jpg" alt="3D design"/>
-            <img class="interestImg" src="index_img/games.jpg" alt="game design"/>
-          </div>
-
         </div>
       </section>
 
- <!-- the CONTACT section -->
-      <section class="contactSection" id="contact">
-        <div class="contactgrid">
-        <!-- what I can offer -->
-        <div class="myService">
-          <h2 class="subhead">What I can offer</h2>
-          <div class="bullets">
-            <div class="comercialIllu">
-              <ion-icon class="bulletIcons" name="color-palette-outline"></ion-icon>
-              <p><strong>Commercial Illustration</strong><br>
-              Illustrating concepts and ideas for commercial projects, bringing visual creativity to your brand.</p>
-            </div>
+      <!-- The INTEREST section -->
+      <section class="interestSection" id="interest">
+        <div class="insbox">
+          <p class="largeDcp">
+            <strong>INTEREST</strong> I'm currently pursuing a master's degree
+            in Interactive Digital Media at Trinity College Dublin, where I
+            explore user-centered design principles, advanced web technologies,
+            3D modeling and animation, and game design.
+          </p>
 
-            <div class="mktPlan">
-              <ion-icon class="bulletIcons" name="briefcase-outline"></ion-icon>
-              <p><strong>Marketing Planning</strong><br>
-              Crafting comprehensive marketing strategies to elevate your products or services and reach a broader audience.</p>
-            </div>
+          <h4 class="smallDcp">
+            With a strong focus on practical applications and innovative
+            projects, it equips me with the skills and knowledge to create
+            engaging digital experiences.
+          </h4>
 
-            <div class="photoShot">
-              <ion-icon class="bulletIcons" name="camera-outline"></ion-icon>
-              <p><strong>Photography</strong><br>
-              Capturing moments and imagery that tell a story and leave a lasting impression.</p>
-            </div>
-
-            <div class="webDev">
-              <ion-icon class="bulletIcons" name="browsers-outline"></ion-icon>
-              <p><strong>Web Design</strong><br>
-              Designing your websites that blend aesthetics with functionality.</p>
-            </div>            
+          <div class="interestImgbox">
+            <img
+              class="interestImg"
+              src="index_img/WebDesign.jpg"
+              alt="developing with javascript"
+            />
+            <img class="interestImg" src="index_img/3D.jpg" alt="3D design" />
+            <img
+              class="interestImg"
+              src="index_img/games.jpg"
+              alt="game design"
+            />
           </div>
         </div>
+      </section>
 
-        <!-- What I need -->
-        <div class="myNeed">
-          <h2 class="subhead">What I need</h2>
-          <div class="bullets">
+      <!-- the CONTACT section -->
+      <section class="contactSection" id="contact">
+        <div class="contactgrid">
+          <!-- what I can offer -->
+          <div class="myService">
+            <h2 class="subhead">What I can offer</h2>
+            <div class="bullets">
+              <div class="comercialIllu">
+                <ion-icon
+                  class="bulletIcons"
+                  name="color-palette-outline"
+                ></ion-icon>
+                <p>
+                  <strong>Commercial Illustration</strong><br />
+                  Illustrating concepts and ideas for commercial projects,
+                  bringing visual creativity to your brand.
+                </p>
+              </div>
+
+              <div class="mktPlan">
+                <ion-icon
+                  class="bulletIcons"
+                  name="briefcase-outline"
+                ></ion-icon>
+                <p>
+                  <strong>Marketing Planning</strong><br />
+                  Crafting comprehensive marketing strategies to elevate your
+                  products or services and reach a broader audience.
+                </p>
+              </div>
+
+              <div class="photoShot">
+                <ion-icon class="bulletIcons" name="camera-outline"></ion-icon>
+                <p>
+                  <strong>Photography</strong><br />
+                  Capturing moments and imagery that tell a story and leave a
+                  lasting impression.
+                </p>
+              </div>
+
+              <div class="webDev">
+                <ion-icon
+                  class="bulletIcons"
+                  name="browsers-outline"
+                ></ion-icon>
+                <p>
+                  <strong>Web Design</strong><br />
+                  Designing your websites that blend aesthetics with
+                  functionality.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- What I need -->
+          <div class="myNeed">
+            <h2 class="subhead">What I need</h2>
+            <div class="bullets">
               <div class="intern">
                 <ion-icon class="bulletIcons" name="id-card-outline"></ion-icon>
-                <p><strong>Internship Opportunities</strong><br>
-                Seeking valuable hands-on experience to further refine my skills and expertise.</p>
+                <p>
+                  <strong>Internship Opportunities</strong><br />
+                  Seeking valuable hands-on experience to further refine my
+                  skills and expertise.
+                </p>
               </div>
 
               <div class="collab">
-                <ion-icon class="bulletIcons" name="color-filter-outline"></ion-icon>
-                <p><strong>Project Collaborations</strong><br>
-                Eager to collaborate with creative minds to bring new and innovative ideas to life.</p>
+                <ion-icon
+                  class="bulletIcons"
+                  name="color-filter-outline"
+                ></ion-icon>
+                <p>
+                  <strong>Project Collaborations</strong><br />
+                  Eager to collaborate with creative minds to bring new and
+                  innovative ideas to life.
+                </p>
               </div>
 
               <div class="friends">
-                <ion-icon class="bulletIcons" name="chatbubbles-outline"></ion-icon>
-                <p><strong>New Friends in Dublin</strong><br>
-                Building connections, sharing experiences, and expanding network in this vibrant city.</p>
-              </div>            
-            </div>            
+                <ion-icon
+                  class="bulletIcons"
+                  name="chatbubbles-outline"
+                ></ion-icon>
+                <p>
+                  <strong>New Friends in Dublin</strong><br />
+                  Building connections, sharing experiences, and expanding
+                  network in this vibrant city.
+                </p>
+              </div>
+            </div>
           </div>
 
           <!-- contact box -->
           <div class="contactBox">
             <div class="contactLeft">
               <h2 class="contact">CONTACT</h2>
-              <p class="invite"><strong class="hi">SAY HI</strong> Whether you're looking for a potential candidate to help with your project, exploring collaboration opportunities, or just chatting about design and technology over coffee, I'm all ears. Drop me an email or connect with me on my social platforms, and let's start a creative conversation.</p>
+              <p class="invite">
+                <strong class="hi">SAY HI</strong> Whether you're looking for a
+                potential candidate to help with your project, exploring
+                collaboration opportunities, or just chatting about design and
+                technology over coffee, I'm all ears. Drop me an email or
+                connect with me on my social platforms, and let's start a
+                creative conversation.
+              </p>
             </div>
 
             <div class="contactRight">
-              <p>LINKEDIN</p>
-              <a class="iconlinks" href="https://www.linkedin.com/in/gracie-guan/"><ion-icon class="righticons" name="arrow-up-outline"></ion-icon></a>                 
-              <p>EMAIL</p>
-              <a class="iconlinks" href="mailto:guanyu@tcd.ie"><ion-icon class="righticons" name="arrow-up-outline"></ion-icon></a>
-              <p>INSTAGRAM</p>
-              <a class="iconlinks" href="https://instagram.com/gracieguan_ie?igshid=OGQ5ZDc2ODk2ZA=="><ion-icon class="righticons" name="arrow-up-outline"></ion-icon></a>
-              <p>SHOW YOUR SUPPORT</p>
-              <ion-icon class="heartempty" name="heart-outline"></ion-icon>
-              <ion-icon class="heartfill unseen" name="heart"></ion-icon>
+              <div class="underline">
+                <p>LINKEDIN</p>
+                <a
+                  class="iconlinks"
+                  href="https://www.linkedin.com/in/gracie-guan/"
+                  ><ion-icon
+                    class="righticons"
+                    name="arrow-up-outline"
+                  ></ion-icon
+                ></a>
+              </div>
+
+              <div class="underline">
+                <p>EMAIL</p>
+                <a class="iconlinks" href="mailto:guanyu@tcd.ie"
+                  ><ion-icon
+                    class="righticons"
+                    name="arrow-up-outline"
+                  ></ion-icon
+                ></a>
+              </div>
+
+              <div class="underline">
+                <p>INSTAGRAM</p>
+                <a
+                  class="iconlinks"
+                  href="https://instagram.com/gracieguan_ie?igshid=OGQ5ZDc2ODk2ZA=="
+                  ><ion-icon
+                    class="righticons"
+                    name="arrow-up-outline"
+                  ></ion-icon
+                ></a>
+              </div>
+
+              <div class="underline">
+                <p>SHOW YOUR SUPPORT</p>
+                <ion-icon class="heartempty" name="heart-outline"></ion-icon>
+                <ion-icon class="heartfill unseen" name="heart"></ion-icon>
+              </div>
             </div>
           </div>
         </div>
-          
-        <a href="index.html"><button class="toTop">Back to Top</button></a> <br>       
-        
-        <div class="btfline">  </div>
-      </section>
 
+        <a href="index.html"><div class="toTop">Back to Top</div></a>
+        <br />
+
+        <div class="btfline"></div>
+      </section>
     </main>
 
-        <!-- add icons -->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-        <!-- add jquery -->
+    <!-- add icons -->
     <script
-    src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-    crossorigin="anonymous"
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
   </body>
 </html>
