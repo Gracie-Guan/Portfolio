@@ -1,0 +1,630 @@
+/**************************************************/
+/* COLOR PLATE
+- Primary: 
+#FBF7F1  #034430
+
+- Tints:
+#FFFFFF  #FBF7F1  #F0EBD7  
+#D0DEE0  #C0D1C7  #407178  #A6B1E7
+
+- Bright:
+#D3E458  #F47B2A 
+#B4C539
+- Shades: 
+#034430  #505D68  #5D5A88
+
+/**************************************************/
+/* The HOME section  */
+header {
+  /* background-image: url(index_img/navbg.png);
+  background-size: 100%; */
+  /* background-repeat: no-repeat; */
+  position: absolute;
+  width: 100%;
+}
+
+.homeSection {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  background-image: url("index_img/bg.png");
+  background-size: 100%;
+  height: 89.7rem;
+  background-repeat: no-repeat;
+}
+
+.slogan {
+  color: #d0dee0;
+  font-family: "Oxygen";
+  font-size: 6.4rem;
+  font-weight: 300;
+  text-align: right;
+  margin: 0 4.6rem 7rem 0;
+  letter-spacing: -0.3rem;
+}
+
+.headline {
+  color: #d0dee0;
+  font-family: "Allura";
+  font-size: 6.4rem;
+  letter-spacing: 0.5rem;
+}
+
+#nameBox {
+  color: #d3e458;
+  grid-row: 2/3;
+  grid-column: 1/3;
+  display: flex;
+  justify-content: space-between;
+}
+
+#name {
+  color: #d3e458;
+  font-family: "Poppins";
+  font-size: 30rem;
+  font-weight: 600;
+  letter-spacing: -2.6rem;
+  align-self: end;
+  line-height: 70%;
+}
+
+#chinesename {
+  color: #d3e458;
+  font-family: "Poppins";
+  font-size: 9rem;
+  font-weight: 600;
+  letter-spacing: -0.25rem;
+  align-self: end;
+  line-height: 70%;
+}
+
+/********************************************/
+/* I intended to create a dynamic background with box but not successful, I will leave them here for future improvement */
+
+/* #homeLeftbox {
+  width: 50%;
+  height: 102.4rem;
+  border-radius: 0rem 8rem 0rem 0rem;
+  background: linear-gradient(71deg, #407178 -12.69%, #034430 29.55%);
+  position: relative;
+  z-index: -1;
+}
+
+.headPhoto {
+  border-radius: 50%;
+  width: 40%;
+  position: relative;
+  z-index: -2;
+}
+
+#homeRightbox {
+  width: 85.8rem;
+  height: 102.4rem;
+  background: linear-gradient(48deg, #a6b1e7 20.83%, #f0ebd7 94.12%);
+  position: relative;
+  z-index: -3;
+} */
+
+/********************************************/
+/* INTRODUCTION SECTION */
+.introSection {
+  display: grid;
+  margin: 5rem 11.5% 8rem 11.5%;
+}
+
+em {
+  font-style: normal;
+  background-color: rgba(211, 228, 88, 0.5);
+}
+
+.intro {
+  grid-column: span 2;
+}
+
+.greeting {
+  color: #a6b1e7;
+  text-align: right;
+  font-family: "Poppins";
+  font-size: 9.6rem;
+  font-weight: 600;
+  line-height: 82%;
+  letter-spacing: -0.5rem;
+  padding-bottom: 4rem;
+}
+
+.greetingName {
+  font-size: 12.8rem;
+  line-height: 82%;
+}
+
+.introphoto {
+  width: 40rem;
+  height: 40rem;
+  margin-top: -5rem;
+}
+
+.introIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: right;
+}
+
+.icon-ig,
+.icon-lk,
+.icon-em {
+  color: #b4c539;
+  padding: 1rem 1rem 0 1rem;
+  width: 1.8rem;
+  font-size: 2.6rem;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+/********************************************/
+/* EXPERTISE SECTION */
+.expertiseSection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 16rem 1fr;
+  background-color: #034430;
+  border-radius: 0 5rem 0 5rem;
+  justify-content: space-between;
+  gap: 3.2rem;
+}
+.expertiseheading {
+  color: #d3e458;
+  text-align: right;
+  font-family: "Poppins";
+  font-size: 12.8rem;
+  font-weight: 700;
+  grid-column: 3/5;
+  padding: 1rem;
+  align-self: center;
+}
+
+.expertiseImgBox {
+  width: 100%;
+}
+
+.colPhoto {
+  grid-row: 1/3;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.colIllu {
+  display: flex;
+  flex-direction: column;
+  grid-row: 1/3;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.colmkt {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.coldigital {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: end;
+}
+
+#box2,
+#box5,
+#box9,
+#box10 {
+  background-color: #d0dee0;
+  width: 100%;
+  line-height: 150%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  padding: 3rem;
+}
+
+#box3,
+#box4,
+#box7,
+#box12 {
+  background-color: #a6b1e7;
+  width: 100%;
+  height: 20.3%;
+}
+
+#box2 {
+  height: 27.5rem;
+}
+
+#box5 {
+  height: 37.7rem;
+}
+
+#box9 {
+  height: 26.6rem;
+}
+
+#box10 {
+  height: 26.8rem;
+}
+
+.expert {
+  color: #034430;
+  font-family: Oxygen;
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.expertdes {
+  color: #034430;
+  font-family: "Lato";
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.goto {
+  width: 1.8em;
+  height: 1.8em;
+  color: #034430;
+}
+
+.linkToExpert {
+  display: flex;
+  align-content: center;
+  line-height: 100%;
+}
+
+#box3 {
+  border-radius: 0 0 0 5rem;
+}
+
+/********************************************/
+/* EXPERIENCE SECTION */
+
+.expheader {
+  display: flex;
+  grid-column: 1/-1;
+  justify-content: space-between;
+  margin: 10rem 11.5% 10rem 11.5%;
+}
+
+.expheading {
+  color: #b4c539;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.expbutn-1,
+.expbutn-2 {
+  background-color: transparent;
+  border-radius: 2rem;
+  line-height: 3.6rem;
+  border: solid 1px #407178;
+  padding: 0 2rem;
+  color: #407178;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 1.6rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.expbtns {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.expbutn-1:hover,
+.expbutn-1:active,
+.expbutn-2:hover,
+.expbutn-3:active {
+  background-color: #034430;
+  color: #d0dee0;
+}
+
+.briefCVbox {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 5rem;
+  margin: 10rem 11.5%;
+}
+
+.job1,
+.job2,
+.job3,
+.job4 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-top: 2.5rem;
+  border-top: solid 1px #a6b1e7;
+}
+
+.companyLogo {
+  width: 8rem;
+  border-radius: 50%;
+}
+
+.jobbrief {
+  color: #034430;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 1rem 0;
+}
+
+.jobBoxRight {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.jobTitle {
+  font-family: "Poppins", sans-serif;
+  color: #5d5a88;
+  font-size: 2rem;
+  font-weight: 600;
+  word-spacing: 110%;
+  padding: 2rem 0;
+}
+
+.jobDescription {
+  line-height: 150%;
+  font-family: "Oxygen", "Lato", sans-serif;
+  word-spacing: 110%;
+  list-style: none;
+}
+
+.jobskills {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skillTags {
+  height: 3.4rem;
+  border-radius: 2rem;
+  background-color: #a6b1e7;
+  color: #fff;
+  padding: 0.3rem 1.5rem 0 1.5rem;
+  font-size: 1.4rem;
+}
+
+.skillTags:hover {
+  background-color: #d3e458;
+}
+
+/********************************************/
+/* INTEREST SECTION */
+.interestSection {
+  background-color: #034430;
+  border-radius: 5rem 0 0 0;
+}
+
+.insbox {
+  display: grid;
+  grid-template-rows: 2fr 1fr 2fr;
+}
+
+.interestImgbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.interestImg {
+  width: 33%;
+}
+
+.largeDcp {
+  color: #d3e458;
+  text-align: right;
+  font-family: "Oxygen", "Lato", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 300;
+  line-height: 120%;
+  letter-spacing: -0.05rem;
+  align-self: center;
+  margin: 0 11.5%;
+}
+
+.smallDcp {
+  color: #c0d1c7;
+  text-align: right;
+  font-family: "Oxygen", "Lato", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  width: 45%;
+  margin: 0 11.5%;
+}
+
+/********************************************/
+/* CONTACT SECTION */
+.contactSection {
+  background-image: url(index_img/contactbg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.contactgrid {
+  display: grid;
+  grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+  margin: 0 11.5%;
+  gap: 3rem;
+}
+
+.myService {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 10rem;
+  width: 50%;
+}
+
+.myNeed {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: end;
+  margin-left: 50%;
+  width: 50%;
+}
+
+.bullets {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  font-size: 1.3rem;
+  line-height: 150%;
+  gap: 3rem;
+}
+
+.comercialIllu,
+.mktPlan,
+.photoShot,
+.webDev {
+  text-align: left;
+  gap: 1.5rem;
+}
+
+.intern,
+.collab,
+.friends {
+  text-align: right;
+  gap: 1.5rem;
+}
+
+.bulletIcons {
+  width: 3rem;
+  height: 3rem;
+  color: #a6b1e7;
+}
+
+.friends {
+  grid-column: 2/3;
+}
+
+.subhead {
+  font-size: 3.2rem;
+  color: #b4c539;
+  font-weight: 600;
+  font-family: "Poppins", "Lato", sans-serif;
+}
+
+/* CONTACT BOX COMPONENT */
+.contactBox {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 3rem;
+  background-color: #034430;
+  height: 40rem;
+  color: #c0d1c7;
+  font-family: "Oxygen", "Lato", sans-serif;
+  line-height: 160%;
+}
+
+.contactLeft {
+  width: 50%;
+}
+
+.contactRight {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  height: 50%;
+  align-items: end;
+  margin-top: 10rem;
+  border-bottom: solid 1px #c0d1c7;
+}
+
+.righticons {
+  justify-self: end;
+  rotate: 45deg;
+  width: 5em;
+  padding: 0.2rem;
+}
+
+.heartempty,
+.heartfill {
+  justify-self: end;
+  width: 5em;
+  padding: 0.2rem;
+}
+
+.iconlinks {
+  color: #c0d1c7;
+  justify-self: end;
+}
+
+.unseen {
+  display: none;
+}
+
+.contact {
+  font-size: 4.8rem;
+  color: #f47b2a;
+  font-family: "Poppins";
+  font-weight: 700;
+  padding: 5rem;
+}
+
+.hi {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.invite {
+  font-size: 2rem;
+  font-weight: 300;
+  width: 80%;
+  word-spacing: 0.1rem;
+  margin-left: 5rem;
+}
+
+.toTop {
+  display: block;
+  background-color: transparent;
+  border-radius: 2rem;
+  border: solid 1px #034430;
+  padding: 1rem 2rem;
+  color: #034430;
+  font-family: "Lato";
+  font-size: 1.6rem;
+  font-weight: 300;
+  width: 20rem;
+  cursor: pointer;
+  margin: 5rem auto;
+}
+
+.toTop:hover,
+.toTop:active {
+  background-color: #034430;
+  color: #c0d1c7;
+}
+
+/* COLORFUL FOOTER FOR THIS PAGE */
+.btfline {
+  width: 100%;
+  height: 1.8rem;
+  background: linear-gradient(270deg, #d3e458 15%, #dce1f9 75%);
+  background-repeat: no-repeat;
+}

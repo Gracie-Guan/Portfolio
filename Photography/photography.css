@@ -1,0 +1,244 @@
+/* - Primary: 
+#FBF7F1  #034430
+
+- Tints:
+#FFFFFF  #FBF7F1  #F0EBD7  
+#D0DEE0  #C0D1C7  #407178  #A6B1E7
+
+- Bright:
+#D3E458  #F47B2A 
+#B4C539
+- Shades: 
+#034430  #505D68  #5D5A88 */
+
+/* Navigation Bar Adjustment */
+
+.navItem-home {
+  font-size: 2.4rem;
+}
+
+.navItem-home:hover,
+.navItem-home:active {
+  color: #f47b2a;
+}
+.navItem-left:link,
+.navItem-left:visited {
+  color: #034430;
+  text-decoration: none;
+}
+.navItem-left:hover,
+.navItem-left:active {
+  color: #f47b2a;
+  text-decoration: none;
+}
+
+/* The Heading Section */
+.backgroundImg1 {
+  display: block;
+  width: 112rem;
+  margin: 10rem auto 0 auto;
+}
+
+.quoteBox {
+  color: #407178;
+  text-align: right;
+  font-family: Oxygen;
+  font-size: 3.6rem;
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: -0.1rem;
+  width: 85rem;
+  position: absolute;
+  right: 0;
+  top: 15rem;
+}
+
+.leftQuote {
+  rotate: 180deg;
+}
+
+.quoteFrom {
+  color: #407178;
+  font-family: Lato;
+  font-size: 3.6rem;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: -0.1rem;
+}
+
+.pageTopic {
+  color: #407178;
+  text-align: right;
+  font-family: "Poppins";
+  font-size: 9.6rem;
+  font-weight: 600;
+  letter-spacing: -0.15rem;
+  line-height: 140%;
+  position: absolute;
+}
+
+/* TRAVELING SECTION */
+.travelBox {
+  display: flex;
+  background-color: #034430;
+  width: 100%;
+  margin: 10rem 0;
+}
+
+.photoGrid-3-6 {
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 1.5rem;
+  row-gap: 2rem;
+  width: 112rem;
+  margin: 10rem auto;
+}
+
+.photoLag {
+  grid-column: span 6;
+  width: 112rem;
+}
+
+.photoSml-tr {
+  width: 36rem;
+  grid-column: span 2;
+  justify-self: center;
+}
+
+.photoMid-tr {
+  width: 55rem;
+  grid-column: span 3;
+}
+
+/* STREET PHOTO SECTION */
+.streetBox {
+  display: grid;
+  grid-template-rows: repeat(5, 26rem);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  width: 112rem;
+  margin: 10rem auto;
+}
+
+.desBox-st {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 36.5rem;
+  height: 24.5rem;
+  border-radius: 30rem 0rem 0rem 0rem;
+  border: solid 1px #034430;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  text-align: right;
+}
+
+.desContent-st {
+  width: 25.8rem;
+  font-family: "Lato";
+  font-weight: 300;
+  line-height: 130%;
+  align-self: flex-end;
+  margin-right: 1rem;
+}
+
+.desTitle-st {
+  font-family: "Poppins";
+  font-size: 3.2rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.photoSml-st {
+  width: 36.5rem;
+}
+
+.model {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  align-self: end;
+}
+
+.tree {
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+.tunnel {
+  grid-row: 2/3;
+  grid-column: 2/4;
+}
+
+.buddha {
+  grid-row: 3/5;
+  grid-column: 1/2;
+}
+
+.stairway {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+.shore {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+.sea {
+  grid-row: 4/6;
+  grid-column: 2/4;
+  align-self: center;
+  width: 100%;
+}
+
+/* PORTRAIT SECTION */
+.portraitSec {
+  background-color: #034430;
+  padding: 10rem 0 10rem 0;
+}
+
+.portraitBox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 1.5rem;
+  width: 112rem;
+  margin: 0 auto;
+}
+
+.desBox-po {
+  width: 36.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0rem 30rem 0rem 0rem;
+  border: solid 1px #c0d1c7;
+  color: #c0d1c7;
+  text-align: left;
+}
+
+.desContent-po {
+  width: 25.8rem;
+  font-family: "Lato";
+  font-weight: 300;
+  line-height: 150%;
+  align-self: center;
+  margin-top: 18rem;
+}
+
+.desTitle-po {
+  font-family: "Poppins";
+  font-size: 3.2rem;
+  font-weight: 600;
+  padding: 6rem;
+}
+
+.photoSml-po {
+  width: 36.5rem;
+}
+
+.photoMid-po {
+  width: 75.2rem;
+  grid-column: 1/3;
+}
