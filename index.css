@@ -545,7 +545,7 @@ em {
 .contactLeft {
   width: 50%;
 }
-
+/* 
 .contactRight {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -554,7 +554,7 @@ em {
   align-items: end;
   margin-top: 10rem;
   border-bottom: solid 1px #c0d1c7;
-}
+} */
 
 .righticons {
   justify-self: end;
